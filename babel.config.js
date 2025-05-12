@@ -12,6 +12,14 @@ module.exports = {
         '@navigation': './src/navigation',
         '@assets': './assets'
       }
+    }],
+    ['module:react-native-dotenv', {
+      moduleName: '@env',
+      path: '.env',
+      blocklist: null,
+      allowlist: null,
+      safe: false,
+      allowUndefined: true,
     }]
   ]
 };
